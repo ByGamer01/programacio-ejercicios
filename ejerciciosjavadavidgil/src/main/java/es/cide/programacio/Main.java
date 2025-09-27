@@ -472,7 +472,7 @@ public class Main {
     */
 
     /***************** Diapositiva 13********************************** */
-    /* byte b;
+    byte b;
     short s;
     long ln;
     int i, j;
@@ -492,7 +492,7 @@ public class Main {
     double resC = d + f; // double + float = double
     System.out.println(resA); // int + char = int ( creo que es por el orden de la operacion)
     System.out.println(resB);
-    System.out.println(resC); */
+    System.out.println(resC); 
 
     /*  No sabia muy bien como hacer el ejercicio de la diapositiva 13, ya que no se
     especificaba nada, asi que hice una suposicion de lo que podria ser. */
@@ -541,8 +541,56 @@ public class Main {
     int i = 8, j = 5;
     float x = 0.005F, y = -0.01F;
     char c = 'c', d = 'd';
-
-    i <= j;
-
+    boolean r1 = i<=j;
+    boolean r2 = x>=0;
+    boolean r3 = j!=6;
+    boolean r4 = !(i<=j);
+    boolean r5 = !(x>0);
+    boolean r6 = ++x>0;
+    boolean r7 = c>d || c>0;
+    boolean r8 = 2*x+y == 0;
+    boolean r9 = x+y >= 0;
+    boolean r10 = - (i+j) != -i+j;
+    boolean r11 = i>0&&j<5;
+    boolean r12 = x>y&&i>0||j<5;
+    boolean r13 = 2 * ((i / 5) + (4 * (j - 3)) % (i + j - 2)) >= 10;
+    boolean r14 = c > d;
+    boolean r15 = x < y--;
+    boolean r16 = c == 99;
+    boolean r17 = !(c==99);
+    boolean r18 = -j == i - 13;
+    boolean r19 = y--<1;
+    boolean r20 = 5 * (i + j) > 'c';
+     // boolean r21 = (2*x + (y==0)); // The operator + is undefined for the argument type(s) float, booleanJava(536871072) Es raro este error. Puede ser que sea porque y == 0 es float = 0, y float no puede ser 0 ?
+    boolean r21 = x < ++y;
+    boolean r22 = i<= j&& i>=c;
+    boolean r23 = i > 0 || j < 5;
+    boolean r24 = (3 * i - 2 * j) % (2 * d - c) > 3 * d;
+    boolean r25 = (i - 3 * j) % (c + 2 * d) / (x - y) >= 0;
+    System.out.println(r1); // false
+    System.out.println(r2); // true
+    System.out.println(r3); // true
+    System.out.println(r4); // true
+    System.out.println(r5); // false // bien
+    System.out.println(r6); // true
+    System.out.println(r7); // true
+    System.out.println(r8); // false // bien
+    System.out.println(r9); // true
+    System.out.println(r10); // true
+    System.out.println(r11); // false
+    System.out.println(r12); // true
+    System.out.println(r13); // true
+    System.out.println(r14); // false
+    System.out.println(r15); // false
+    System.out.println(r16); // true
+    System.out.println(r17); // false
+    System.out.println(r18); // true
+    System.out.println(r19); // true
+    System.out.println(r20); // false
+    System.out.println(r21); // false
+    System.out.println(r22); // false
+    System.out.println(r23); // true
+    System.out.println(r24); // false
+    System.out.println(r25); // false
   }
 }
