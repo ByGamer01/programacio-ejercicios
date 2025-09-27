@@ -209,5 +209,119 @@ public class Main {
         System.out.println(s9);
 
         /**********************EJERCICIO DECLARAR VARIABLES************************** */
+        int p, q;
+        p = 8;
+        q = 15;
+        System.out.println(p);
+        System.out.println(q);
+        char a, b, c;
+        a = 'X';
+        b = 'Y';
+        c = 'Z'; 
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        long contador = 102930;
+        System.out.println(contador);
+        int indice = 123;
+        System.out.println(indice);
+        char car1, car2;
+        car1 = 'A';
+        car2 = 'B';
+        System.out.println(car1);
+        System.out.println(car2);
+        boolean primero, ultimo;
+        primero = true;
+        ultimo = false;
+        System.out.println(primero);
+        System.out.println(ultimo);
+        float x, y, z;
+        x = 1.5f;
+        y = 2.5f; 
+        z = 3.5f;
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+        double raiz1, raiz2;
+        raiz1 = 1.732;
+        raiz2 = 3.1416;
+        System.out.println(raiz1);
+        System.out.println(raiz2);
+        short indicador;
+        indicador = 125;
+        System.out.println(indicador);
+        double precio, precioFinal;
+        precio = 19.95;
+        precioFinal = 24.95;
+        System.out.println(precio);
+        System.out.println(precioFinal);
+        byte valor;
+        valor = 127;
+        System.out.println(valor);
+        String nombre;
+        nombre = "David";
+        System.out.println(nombre);
+      
+        /**********************DECLARAR VARIABLES (Diapositiva 8)************************************** */
+        byte edad;
+        edad = 25;
+        System.out.println(edad);
+        short altura;
+        altura = 175;
+        System.out.println(altura);
+        boolean mujer;
+        mujer = false;
+        System.out.println(mujer);
+        String nombre1; // debido a que se duplica la variable, le puse un 1
+        nombre1 = "David1";
+        System.out.println(nombre1);
+        double iva = 0.18;
+        System.out.println(iva); 
+        byte peso = 70;
+        System.out.println(peso);
+        boolean alumnoRepetidor;
+        alumnoRepetidor = true;
+        alumnoRepetidor = false;
+        System.out.println(alumnoRepetidor);
+        String letra;
+        letra = "Z";
+        System.out.println(letra);
+        short minutos = 60;
+        System.out.println(minutos);
+        String matriculaCoche = "0882ABC";
+        System.out.println(matriculaCoche);
+        Boolean mayorDeEdad;
+        mayorDeEdad = true;
+        mayorDeEdad = false;
+        System.out.println(mayorDeEdad);
+        double códigoPostal = 07011; // mejor sin acento
+        System.out.println(códigoPostal);
+        boolean genero;
+        genero = false; // true hombre, false mujer
+        genero = true;
+        System.out.println(genero);
+        byte numeroDeHijos = 0;
+        System.out.println(numeroDeHijos);
+        int tallaCamisa = 40;
+        System.out.println(tallaCamisa);
+       // double precio1 = 20$;
+       // System.out.println(precio1); // MAL, no reconoce el $ en la variable
+        String mensaje = "Hola a todos";
+        System.out.println(mensaje);
+        short mayorEdad = 18;
+        System.out.println(mayorEdad);
+        short dias = 365;
+        System.out.println(dias);
+        byte contador1 = 0; // añado un 1 para no duplicar la variable
+        System.out.println(contador1);
+        char tallaCamiseta;
+        tallaCamiseta = 'S';
+        tallaCamiseta = 'M';
+        tallaCamiseta = 'L';
+        tallaCamiseta = 'X';
+        System.out.println(tallaCamiseta);
+        /***********************EXPRESIONES ALGEBRAICAS A ALGORITMICAS*********************************** */
+        
+
     }
 }
