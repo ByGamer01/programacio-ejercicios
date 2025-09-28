@@ -490,9 +490,56 @@ public class Main {
     double resA = i + c; // int
     double resB = f - c; // float - char = float
     double resC = d + f; // double + float = double
+    double resD = d + i; // double + int = double
+    double resE = i / f;
+    double resF = s + j;
+    double resG = d + j;
+    double resH = s * c;
+    double resI = d+c;
+    double resJ = b+c;
+    double resK = b / c+s;
+    double resL = c + c;
+    double resM = i + ln +d;
+    double resN = ln + c;
+    double resO = 5 / j;
+    double resP = 5.2 / j;
+    double resQ = i * f * 2.5;
+    double resR = ln *f*2.5F;
+    double resS = j - 4L;
+    double resT = j - 4L * 2.5F;
+    double resU = b + 2.5 * i + 35F;
+    double resV = 'a' + b;
+    double resW = 'a' + c;
+    double resX = c + 2;
+    double resY = c - ln / 2;
+    double resZ = 2 / i + 2.0 / j;
     System.out.println(resA); // int + char = int ( creo que es por el orden de la operacion)
     System.out.println(resB);
-    System.out.println(resC); 
+    System.out.println(resC);
+    System.out.println(resD);
+    System.out.println(resE);
+    System.out.println(resF);
+    System.out.println(resG);
+    System.out.println(resH);
+    System.out.println(resI);
+    System.out.println(resJ);
+    System.out.println(resK);
+    System.out.println(resL);
+    System.out.println(resM);
+    System.out.println(resN);
+    System.out.println(resO);
+    System.out.println(resP);
+    System.out.println(resQ);
+    System.out.println(resR);
+    System.out.println(resS);
+    System.out.println(resT);
+    System.out.println(resU);
+    System.out.println(resV); /*  char + byte = int ( creo que es por el
+    orden de la operacion) */
+    System.out.println(resW);
+    System.out.println(resX);
+    System.out.println(resY);
+    System.out.println(resZ);
 
     /*  No sabia muy bien como hacer el ejercicio de la diapositiva 13, ya que no se
     especificaba nada, asi que hice una suposicion de lo que podria ser. */
